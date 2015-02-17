@@ -1,0 +1,92 @@
+body{
+background-image:url("images/Background.png");
+background-repeat:no-repeat;
+background-size: 100% auto;
+background-attachment:fixed;
+color:Khaki;
+text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+text-align: justify;
+font-size:20px;
+}
+
+header{
+font-size:100px;
+color:white;
+background-image:url("images/Spaceship.png");
+
+padding:35px;
+padding-left:100px;
+margin:1%;
+}
+
+h1{
+font-size:50px;
+color:white;
+background-image:url("images/Player.png");
+background-repeat:no-repeat;
+background-size:cover;
+
+position:absolute;
+top:140px;
+width:30%;
+text-align:center;
+padding:10px;
+margin-left:65%;
+margin-right:1%
+}
+
+h1 span{
+display:block;
+font-size:25px;
+}
+
+#Presentation {
+margin-top:1%;
+margin-left:3%;
+margin-right:35%;
+padding:1px 20px;
+background-color: rgba(100,100,100,0.5);
+font-size:20px;
+}
+
+
+img{
+display:block;
+margin:auto;
+}
+
+a{
+background-color:white;
+text-align:center;
+padding:5px;
+}
+
+h2,h3,h4{
+color:white;
+font-size:30px;
+text-shadow:none;
+padding:5px 30px;
+background-color:rgba(200,200,200,0.5);
+}
+
+h2,h3,figcaption{
+text-align:center;
+}
+
+
+section, article{
+background-color: rgba(100,100,100,0.5);
+margin:30px 10% 30px 10%;
+}
+
+section p, section ul{
+margin:30px 5%;
+padding:2px 10px;
+background-color: rgba(100,100,100,0.5);
+}
+
+
+div #Menu {
+display:block;
+margin:auto;
+}

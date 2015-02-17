@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Fire</title>
+<meta charset="UTF-8"/>
+<meta name="author" content="Camille Lihouck"/>
+<link rel="stylesheet" href="../style.css"/>
+</head>
+
+
+<body>
+<h1> Spaceship </h1>
+<span> <a href="firefighter.html">English</a> <a href="pompier.html">Français</a> </span>
+
+<h2> Firefighter </h2>
+
+
+<h3> Differents characters</h3>
+<a href="../alien/marine.html">Marine</a>
+<a href="firefighter.html">Firefighter</a>
+<a href="../hack/engineer.html">Engineer</a>
+<a href="../main-en.html"> Return to menu </a>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Fire</title>
+<meta charset="UTF-8"/>
+<meta name="author" content="Camille Lihouck"/>
+<link rel="stylesheet" href="../style.css"/>
+</head>
+
+
+<body>
+<span> <a href="firefighter.html">English</a> <a href="pompier.html">Français</a> </span>
+
+<header> Spaceship </header>
+
+
+<h1> Pompier <span class="pwd">ID: axe </span></h1>
+
+
+<div id="Presentation">
+<p> Tu es engagé à bord du vaisseau en tant que pompier.
+Comme tout les autres joueurs ton but est de maintenir le vaisseau en bon état afin d'arriver à destination, mais tu as ta spécialité : les incendies (<strong>Fire</strong>). Toi seul peux régler ce problème.
+</p>
+</div>
+
+<section id="MiniGame">
+
+<h2> Les Incendies (Fire) </h2>
+
+<p> 
+Suite à l'endomagement du vaisseau, des incendies se déclenchent spontanement dans le vaiseau. Vite c'est à toi d'agir et d'empécher cela. Rends toi dans la salle incendiée, résouds le mini-jeu proposé et stoppe les pertes d'oxygène qui risquent de tous vous tuer.
+</p>
+
+
+<h3> Le mini-jeu </h3>
+
+<article id="Description">
+
+<h4> Description </h4>
+
+<p> 
+Pour régler le problème il va falloir résoudre un mini-jeu. Inspiré du célèbre Snake, tu vas devoir guider le tuyau d'arrosage à travers la salle pour éteindre des incendies. 
+</p>
+
+<figure>
+<img src="Fire.png" alt="interface du mini-jeu"/>
+<figcaption>Image du mini jeu fire</figcaption>
+</figure>
+</article>
+
+<article id="Rules">
+
+<h4> Les règles </h4>
+
+<p>
+Il te faut guider un tuyeau d'arrosage à travers la pièce pour aller éteindre les incendies. Le tuyeau se dirige avec les fléches du clavier, mais attention, tes réserves d'eau ne sont pas illimitées.
+</p>
+
+<ul>
+<li>Les images feu représentent les incendies que tu doit éteindre.</li>
+<li>Les images eau représentent les réserves d'eau que tu peux récupérer</li>
+</ul>
+
+<p>
+Une réserve d'eau permet d'éteindre un incendie. Tu peux voir ta réserve d'eau à la longueur du jet d'eau à la sortie du tuyeau. Si tu veux éteindre un incendie et que tu n'as plus d'eau, tu perds et tu devras recommencer à zéro.
+</p>
+
+<p>
+Pour gagner, il te faudra éteindre 10 incendies.
+</p>
+
+<p>
+Attention, tu controle le début de la lance à incendie et non le jet d'eau, il suit le déplacement du tuyeau.
+</p>
+
+</article>
+
+<article id="SideEffects">
+
+<h4> Effets extérieurs </h4>
+
+<p>
+Tant qu'il y a un incendie dans le vaisseau, vous perdez de l'oxygène. Une fois qu'il n'y a plus d'oxygène dans le vaiseau, vous mourrez. Il te faudra donc vite éteindre les incendies, car oui il peut y avoir plusieurs incendies en même temps.
+</p>
+
+</article>
+</section>
+
+<h2> Différents personnages</h2>
+<a href="../alien/soldat.html">Soldat</a>
+<a href="pompier.html">Pompier</a>
+<a href="../hack/ingenieur.html">Ingénieur</a>
+<a href="../main-fr.html"> Retour au Menu </a>
+</body>
+
+</html>

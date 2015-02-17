@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Hack</title>
+<meta charset="UTF-8"/>
+<meta name="author" content="Camille Lihouck"/>
+<link rel="stylesheet" href="../style.css"/>
+</head>
+
+
+<body>
+
+<span> <a href="engineer.html">English</a> <a href="ingenieur.html">Français</a> </span>
+
+<header> Spaceship </header>
+
+
+<h1 id="Egineer"> Ingénieur<span class="pwd"> ID : pencil </span> </h1>
+
+<div id="Presentation">
+<p> Tu es engagé à bord du vaisseau en tant qu'ingénieur.
+Comme tout les autres joueurs ton but est de maintenir le vaisseau en bon état afin d'arriver à destination. Pour parvenir à cet objectif, tu as une spécialité : les <strong>hacks</strong>.
+Tu es le seul de l'équipe à pouvoir combattre les hackers.
+</p>
+</div>
+
+
+<section id="MiniGame">
+
+<h2> Les Hacks </h2>
+
+<p> Le vaisseau subit des attaques informatiques. Quelqu'un cherche à prendre le contrôle du vaisseau. Vite c'est à toi d'agir et de l'en empêcher. Rends-toi dans la salle attaquée, résouds le mini-jeu proposé et communiques le mot de passe à tes équipiers pour dévérouiller le centre de contrôle.</p>
+
+<h3> Le mini-jeu </h3>
+
+<article id="Description">
+
+<h4> Description </h4>
+
+<p> 
+Pour régler le problème il va falloir résoudre un mini-jeu. Inspiré du célèbre master-mind, tu vas devoir trouver le code secret qui permettra de dévérouiller les commandes du vaisseau. 
+</p>
+
+<figure>
+<img src="mini-jeu.png" alt="interface du mini-jeu"/>
+<figcaption>Image du mini jeu hack</figcaption>
+</figure>
+</article>
+
+<article id="Rules">
+<h4> Les règles </h4>
+
+<p> 
+Tu vas donc devoir rentrer une série de carractères afin de trouver le mot de passe.
+Chaque casse <q>?</q> correspond à un carractère à trouver.
+La casse blanche correspond à la zone ou il faut taper.
+A côté de <q> Possibilités </q> se trouve l'ensemble des carractères qui peuvent être dans le mot de passe.
+</p>
+
+<p>
+Par défaut il faut trouver 4 carractères dans l'ordre parmi les 26 lettres de l'alphabet. Un même carractère peut apparaître plusieurs fois.
+</p>
+
+<ul>
+<li>Une case rouge signifie que le carractère n'est pas dans le code secret.</li>
+<li>Une case orange signifie que le carractère est dans le code, mais pas à cet endroit là.</li>
+<li>Une case verte signifie que le carractère est bien placé.</li>
+</ul>
+
+<p>
+Toutes tes propositions sont affichées en dessous afin de garder les informations que tu as trouvé. Tu as autant de possibilités que tu veux mais le but est bien sur de prendre le moins de temps possible.
+</p>
+</article>
+
+<article id="SideEffects">
+<h4> Effets extérieurs </h4>
+
+<p>
+Tant qu'un hack est en cours des perturbations peuvent avoir lieu sur l'ensemble des ordinateurs du vaisseau et pénaliser l'ensemble de l'équipage.
+
+Pour finir de résoudre l'événement hack, il te faudra communiquer un mot de passe à un de tes coéquipier qui devra saisir le mot de passe dans le centre de commande pendant que tu ouvrira la fenêtre depuis là ou tu es.
+</p>
+</article>
+</section>
+
+<div id="Menu">
+<a href="../alien/soldat.html">Soldat</a>
+<a href="../fire/pompier.html">Pompier</a>
+<a href="ingenieur.html">Ingénieur</a>
+<a href="../main-fr.html"> Retour au Menu </a>
+</div>
+</body>
+
+</html>
