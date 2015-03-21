@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+
+<title>Personnages</title>
+<meta charset="UTF-8"/>
+<meta name="author" content="Camille Lihouck"/>
+<link rel="stylesheet" href="../css/style.css"/>
+</head>
+
+
+<body>
+
+<header> Spaceship </header>
+
+
+<h1> Les Rôles </h1>
+
+
+<table id="MENU">
+<tr><th colspan="3"><a href="salles.html">Salles</a></th></tr>
+<tr><td><a href="salles.html#Command-Center">Command Center</a></td>
+<td><a href="salles.html#Engine-Room">Engine Room</a></td>
+<td><a href="salles.html#Life-Support">Life Support</a></td></tr>
+<tr><td><a href="salles.html#Cockpit">Cockpit</a></td>
+<td><a href="salles.html#CCTV-Center">CCTV Center</a></td>
+<td><a href="salles.html#Computer-Center">Computer Center</a></td></tr>
+<tr><th colspan="3"><a href="event.html">Événements</a></th></tr>
+<tr><td><a href="event.html#Alien"> Alien</a></td>
+<td><a href="event.html#Fire">Fire</a></td>
+<td><a href="event.html#Hack">Hack</a></td></tr>
+<tr><td colspan="3"><a href="event.html#Autres-Events">Autres événements</a></td></tr>
+<tr><th colspan="3"><a href="personnages.html">Personnages</a></th></tr>
+<tr><td><a href="personnages.html#Marine">Soldat</a></td>
+<td><a href="personnages.html#Firefighter">Pompier</a></td>
+<td><a href="personnages.html#Engineer">Ingénieur</a></td>
+</tr>
+<tr><th colspan="3">Jouer aux Mini jeux </th></tr>
+<tr><td><a href="../images/MiniJeu/alien/index.html" target="_blank"> Alien </a></td>
+<td><a href="../images/MiniJeu/fire/view.html" target="_blank"> Fire </a></td>
+<td><a href="../images/MiniJeu/hack/view.html" target="_blank">Hack </a></td></tr>
+<tr> <th colspan="3"> <a href="../index.html"> Retour à l'Accueil </a></th></tr>
+<tr><td colspan="3"> <a href="../index.html#Contacts"> Nous contacter </a></td></tr>
+<tr><th colspan="3"> Prochains événements </th></tr>
+<tr><td colspan="3"> ------ Mardi 27 avril à 18h ------  ---- Soirée jeux vidéos ---- Maison des Etudiants Lille 1 Organisé par <a href="https://www.facebook.com/des.a.la.carte?fref=ts">dés à la carte</a></td></tr>
+</table>
+
+
+<section id="Marine">
+
+<h1> Soldat <span class="pwd">ID: knife </span></h1>
+<p> Tu es engagé à bord du vaisseau en tant que soldat.
+Comme tout les autres joueurs tu devras maintenir le vaisseau en bon état afin d'arriver à destination, mais tu as ta spécialité : les attaques <strong>Aliens</strong>. Toi seul peux régler ce problème.
+</p>
+
+
+<h2><span>Ta mission:</span><span> Combattre les Aliens</span></h2>
+
+
+<figure><img src="../images/soldat.png" alt="Soldat"/></figure>
+<p> Malgré l'endomagement du vaisseau, il attire quand même la convoitise d'autres races extraterrestres passant par là et dans ce coin de l'univers, il y en a pas mal. Pour venir piller votre vaisseau, en prendre le contrôle ou encore vous dévorer, les Aliens attaquent le vaisseau.</p>
+<p>
+Vite c'est à toi d'agir et d'empécher cela. Rends toi dans la salle attaquée, résouds le mini-jeu proposé et tue les Aliens qui s'y trouvent. Si tu n'arrives pas à les stopper ils continueront leur progression dans le vaisseau, si la salle de commande tombe, vous êtes perdus.</p>
+
+
+</section>
+
+
+<section id="Firefighter">
+<h1> Pompier <span class="pwd">ID: axe </span></h1>
+<p> Tu es engagé à bord du vaisseau en tant que pompier.
+Comme tout les autres joueurs ton but est de maintenir le vaisseau en bon état afin d'arriver à destination, mais tu as ta spécialité : les incendies (<strong>Fire</strong>). Toi seul peux régler ce problème.
+</p>
+
+<h2><span>Ta mission:</span><span> Eteindre les Incendies</span></h2>
+
+<figure><img src="../images/pompier.png" alt="Pompier"/></figure>
+<p> 
+Suite à l'endomagement du vaisseau, des incendies se déclenchent spontanement dans le vaisseau. Il faut absolument les éteindre au plus vite afin de remettre le vaisseau en état de fonctionner et vous permettre d'arriver à destination.</p>
+<p>C'est à toi d'agir et d'empécher cela. Rends toi dans la salle incendiée, résouds le mini-jeu proposé et stoppe au plus vite les pertes d'oxygène causées par l'incendie qui risquent de tous vous tuer.
+</p>
+</section>
+
+
+
+<section id="Engineer">
+
+<h1> Ingénieur<span class="pwd"> ID : pencil </span> </h1>
+<p> Tu es engagé à bord du vaisseau en tant qu'ingénieur.
+Comme tout les autres joueurs ton but est de maintenir le vaisseau en bon état afin d'arriver à destination. Pour parvenir à cet objectif, tu as une spécialité : les <strong>hacks</strong>.
+Tu es le seul de l'équipe à pouvoir combattre les hackers.
+</p>
+
+
+<h2> <span>Ta mission:</span><span> Combattre les Hacks </span></h2>
+
+<figure><img src="../images/ingenieur.png" alt="Ingénieur"/></figure>
+
+
+<p> Le vaisseau subit des attaques informatiques. Quelqu'un cherche à prendre le contrôle du vaisseau et à vous empécher d'arriver à bon port. Sans le contrôles des machines vous n'y arriverez pas. De plus vous ne pouvez pas être sur d'aucune des informations qui vous parviennent.</p>
+<p> Vite c'est à toi d'agir et de régler ce problème. Rends-toi dans la salle qui a été piraté, résouds le mini-jeu proposé et récupères le mot de passe qui permettra de récupérer les commandes. Puis communiques le à tes équipiers pour dévérouiller le centre de contrôle.</p>
+
+
+</section>
+
+<footer><span><a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License Version 3 29-June-2007</a></span><h2><a href="#MENU">Retour au Menu</a></h2><span><a href="https://github.com/yoann-dufresne/Spaceship_node">Participe au projet <img src="../images/GitHub.png" alt=""/></a></span></footer>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+
+<head>
+
+<title>Salles</title>
+<meta charset="UTF-8"/>
+<meta name="author" content="Camille Lihouck"/>
+<link rel="stylesheet" href="../css/style.css"/>
+</head>
+
+
+<body>
+
+<header> Spaceship </header>
+
+<h1>Les salles</h1>
+
+<table id="MENU">
+<tr><th colspan="3"><a href="salles.html">Salles</a></th></tr>
+<tr><td><a href="salles.html#Command-Center">Command Center</a></td>
+<td><a href="salles.html#Engine-Room">Engine Room</a></td>
+<td><a href="salles.html#Life-Support">Life Support</a></td></tr>
+<tr><td><a href="salles.html#Cockpit">Cockpit</a></td>
+<td><a href="salles.html#CCTV-Center">CCTV Center</a></td>
+<td><a href="salles.html#Computer-Center">Computer Center</a></td></tr>
+<tr><th colspan="3"><a href="event.html">Événements</a></th></tr>
+<tr><td><a href="event.html#Alien"> Alien</a></td>
+<td><a href="event.html#Fire">Fire</a></td>
+<td><a href="event.html#Hack">Hack</a></td></tr>
+<tr><td colspan="3"><a href="event.html#Autres-Events">Autres événements</a></td></tr>
+<tr><th colspan="3"><a href="personnages.html">Personnages</a></th></tr>
+<tr><td><a href="personnages.html#Marine">Soldat</a></td>
+<td><a href="personnages.html#Firefighter">Pompier</a></td>
+<td><a href="personnages.html#Engineer">Ingénieur</a></td>
+</tr>
+<tr><th colspan="3"> Jouer aux Mini jeux </th></tr>
+<tr><td><a href="../images/MiniJeu/alien/index.html" target="_blank"> Alien </a></td>
+<td><a href="../images/MiniJeu/fire/view.html" target="_blank"> Fire </a></td>
+<td><a href="../images/MiniJeu/hack/view.html" target="_blank">Hack </a></td></tr>
+<tr> <th colspan="3"> <a href="../index.html"> Retour à l'Accueil </a></th></tr>
+<tr><td colspan="3"> <a href="../index.html#Contacts"> Nous contacter </a></td></tr>
+<tr><th colspan="3"> Prochains événements </th></tr>
+<tr><td colspan="3"> ------ Mardi 27 avril à 18h ------  ---- Soirée jeux vidéos ---- Maison des Etudiants Lille 1 Organisé par <a href="https://www.facebook.com/des.a.la.carte?fref=ts">dés à la carte</a></td></tr>
+</table>
+
+<section id="Command-Center">
+<h1>Command Center</h1>
+<p>Le Command Center est le centre de commande. C'est l'endroit à partir duquel vous pouvez voir l'état du vaisseau. Il vous permet de voir en temps réel les problèmes qui se déclanchent dans les différentes salles du vaisseau et d'aller les régler.</p>
+<figure><img src="../images/commandCenter.png" alt="Command Center"/></figure>
+<p>Mais c'est aussi le coeur du vaisseau et la cible d'attaques. Les Aliens vont chercher à venir prendre le contrôle du vaisseau, s'ils prennent le contrôle du Command-Center vous perdez le contrôle du vaiseau et avez perdus.</p>
+<p>Les Hackers vont aussi chercher à prendre le contrôle de vos systèmes. Tant qu'un Hack est en cours, les informations ne sont plus mises à jour dans le Command-Center et il faudra rebooter le système en rentrant le mot de passe communiqué par l'Ingénieur dans l'ordinateur du Command-Center.</p>
+</section>
+
+<section id="Engine-Room">
+<h1>Engine Room</h1>
+<p>L'Engine Room est la salle des moteurs, c'est grâce aux moteurs de cette salle que vous pouvez avancer. Sans les moteurs vous ralentirez et mettrez beaucoup plus de temps à arriver à destination. L'Engine Room et le Cokpit sont complémentaires pour avancer.</p>
+<figure><img src="../images/moteurs.png" alt="Engine Room"/></figure>
+<p>Si les deux sont actifs alors, vous avancez à une seconde-lumière par seconde, s'il ya un problème dans l'une des deux salles vous n'avancerez plus qu'a une demi seconde-lumière par seconde. Si les deux sont désactifs vous n'avancerez plus du tout.</p>
+<p>Votre but étant d'arriver à destination, plus vous mettez de temps à arriver plus vous risquez d'avoir des problèmes et de ne jamais atteindre votre destination.</p>
+</section>
+
+<section id="Life-Support">
+<h1> Life Support </h1>
+<p>La Life Support est la salle qui allimente l'ensemble du vaisseau  en oxygène. C'est grâce à elle que vous pouvez voyagez aussi loin et aussi longtemps dans l'espace. C'est elle qui permet aux membres de l'équipage de respirer à bord du vaisseau.</p>
+<figure><img src="../images/oxygen.png" alt="Life Support"/></figure>
+<p>Tant que la Life Support est active, elle produit un pour cent d'oxygène par seconde, quand elle est désactive, elle fait perdre un pour cent d'oxygène par seconde.</p>
+<p>L'oxygène est vitale, si jamais le niveau d'oxygène diminue trop et arrive à zéro, alors sans oxygène vous ne pourrez plus respirer et vous mourrez asphixiés. Si vous mourrez, vous avez perdus.</p>
+</section>
+
+<section id="Cockpit">
+<h1>Cockpit</h1>
+<p>Le Cockpit est l'endroit qui permet de diriger le vaiseau, si vous n'étes pas capable de vous dirigez, vous continuerez d'avancer mais vous ne saurez pas ou vous allez et irez donc beaucoup plus lentement. L'Engine Room et le Cokpit sont complémentaires pour avancer.</p>
+<figure><img src="../images/cockpit.png" alt="Cockpit"/></figure>
+<p>Si les deux sont actifs alors, vous avancez à une seconde-lumière par seconde, s'il y a un problème dans l'une des deux salles vous n'avancerez plus qu'a une demi seconde-lumière par seconde. Si les deux sont désactifs vous n'avancerez plus du tout.</p>
+<p>Votre but étant d'arriver à destination, plus vous mettez de temps à arriver plus vous risquez d'avoir des problèmes et de ne jamais atteindre votre destination.</p>
+</section>
+
+<section id="Computer-Center">
+<h1>Computer Center</h1>
+<p> Le Computer Center est la salle des machines. C'est à partir de là que sont gérées toutes les machines et tous les postes du vaisseau. Si un problème se déclanche, alors on subira des perturbations dans tout le vaisseau</p>
+<figure><img src="../images/computer.png" alt="Computer Center"/></figure>
+<p> Tant qu'un événement est en cours dans le Computer Center l'ensemble des ordinateurs du vaisseau subiront des interférences. Quelque soit la pièce ou l'on soit, l'écran de l'ordinateur grésillera, se désactivera pendant quelques secondes. 
+</p>
+<p>Pendant ce temps, il sera donc plus compliqué de résoudre n'importe quel problème à bord du vaisseau, en particulier s'il faut être précis et rapide.
+</p>
+</section>
+
+<section id="CCTV-Center">
+<h1> CCTV Center </h1>
+<p> Le CCTV Center est le centre de surveillance du vaisseau. Il permet ainsi de prévoir et d'améliorer la gestion des événements extérieurs.</p>
+<figure><img src="../images/CCTV.png" alt="CCTV Center"/></figure>
+<p> Quand un élément surgit en CCTV Center alors il devient plus compliqué de prévoir les événements qui vont surgir. Ainsi la probabilité qu'un événement spécial se déclanche est multiplié par deux tant qu'un événement est en cours dans le CCTV Center</p>
+<p> Plus il y a d'événements en cours, plus il est difficile de tous les résoudre en même temps et plus il y a de risque que le vaisseau n'arrive jamais à destination.</p>
+</section>
+<footer><span><a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License Version 3 29-June-2007</a></span><h2><a href="#MENU">Retour au Menu</a></h2><span><a href="https://github.com/yoann-dufresne/Spaceship_node">Participe au projet <img src="../images/GitHub.png" alt=""/></a></span></footer>
+</body>
+</html>
